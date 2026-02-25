@@ -8,3 +8,7 @@ flags:
       type: BOOLEAN_FLAG_TYPE
       description: some description
       enabled: false
+segments:
+    - key: by_account
+      name: by_account
+      match_type: ANY_MATCH_TYPE
