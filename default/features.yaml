@@ -8,6 +8,12 @@ flags:
       type: BOOLEAN_FLAG_TYPE
       description: some description
       enabled: false
+      rollouts:
+        - segment:
+            keys:
+                - by_account
+            operator: OR_SEGMENT_OPERATOR
+            value: true
 segments:
     - key: by_account
       name: by_account
