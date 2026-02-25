@@ -6,4 +6,5 @@ flags:
     - key: test-test
       name: test test
       type: BOOLEAN_FLAG_TYPE
+      description: some description
       enabled: false
